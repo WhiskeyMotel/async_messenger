@@ -1,0 +1,9 @@
+asyncqt==0.8.0
+Interface==2.11.1
+PyQt5==5.14.2
+PyQt5-sip==12.7.2
+PySide2==5.14.1
+shiboken2==5.14.1
+zope.event==4.4
+zope.interface==5.1.0
+zope.schema==6.0.0

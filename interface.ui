@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>297</width>
+                <height>409</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Chat v0.1</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="0" colspan="2">
+                    <widget class="QPlainTextEdit" name="message_box">
+                        <property name="readOnly">
+                            <bool>true</bool>
+                        </property>
+                        <property name="placeholderText">
+                            <string>Connecting...</string>
+                        </property>
+                    </widget>
+                </item>
+                <item row="2" column="1">
+                    <widget class="QPushButton" name="reconnect_button">
+                        <property name="text">
+                            <string>Reconnect</string>
+                        </property>
+                    </widget>
+                </item>
+                <item row="1" column="1">
+                    <widget class="QPushButton" name="message_button">
+                        <property name="text">
+                            <string>Send</string>
+                        </property>
+                    </widget>
+                </item>
+                <item row="1" column="0" rowspan="2">
+                    <widget class="QLineEdit" name="message_input">
+                        <property name="placeholderText">
+                            <string>Type your message here...</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
